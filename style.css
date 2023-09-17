@@ -31,3 +31,19 @@
   background-color: rgb(247, 6, 6);
   color: white;
 }
+
+/* nextpage */
+.card{
+margin-top: 15px;
+
+
+
+}
+
+.all{
+width: 50%;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}

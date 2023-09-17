@@ -35,7 +35,11 @@ const addinfo = () => {
   total.innerHTML = "";
   for (const student of students) {
     const li = document.createElement("li");
-    li.innerText=`${student.work}= ${student.hour} =${student.time}`;
+li.innerHTML= ` <div class="card" style = "border:2px solid black; width:30%; border-radius: 5px; display:flex;" > 
+<h3> ${student.work}  = ${student.hour}  = ${student.time}</h3>  
+
+</div>  `
+
     total.appendChild(li);
   }
 };
